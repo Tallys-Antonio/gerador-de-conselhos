@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+    <title>Gerador de conselho</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variaveis.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <h1 class="id"></h1>
+
+            <p class="conselho"></p>
+
+            <picture>
+                <source srcset="src/images/pattern-divider-desktop.svg" media="(min-width:475px)">
+                <img src="src/images/pattern-divider-mobile.svg" alt="separador" class="separador">
+            </picture>
+
+            <button class="botao">
+                <img src="src/images/icon-dice.svg">
+            </button>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>

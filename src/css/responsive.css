@@ -1,0 +1,5 @@
+@media (max-width: 358px) { 
+    .card .separador{
+        width: 250px;
+    }
+}
